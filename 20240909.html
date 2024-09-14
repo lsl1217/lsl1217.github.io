@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            /* border: 2px solid rgb(134, 249, 134); */
+           
+            
+        }
+        header{
+            height: 20%;
+            background: #1ebe51;
+            margin: 0%;
+          
+        }
+        p{
+            height: 40%;
+            background: blueviolet;
+            margin: 0%;
+           
+        }
+        div{
+            height: 30%;
+            background: #4e3ae7;
+            margin: 0%;
+         
+        }
+        footer{
+            height: 10%;
+            background: red;
+            margin: 0%;
+       
+        }
+
+    </style>
+    <script>
+        console.time('first');
+    </script>
+   
+</head>
+<body>
+    <header>
+        tou
+    </header>
+    <p>
+        duan
+
+    </p>
+    <div>
+        ti
+    </div>
+    <footer>
+        wei
+    </footer>
+     <script>
+        console.timeEnd('first');
+        console.time('number');
+        {
+            let i=1;
+            while (i<=10000){
+                i++;
+            }
+        }
+        console.timeEnd('number');
+        let myBody=document.querySelector("body");
+        console.log(myBody);
+        // myBody.style.height="250px";
+        //myBody.style.width="250px";
+        myBody.style.height=innerHeight-1+"px";        
+        let mBody=document.querySelector("div");
+        // console.log(myBody);
+        // myBody.style.height="250px";
+        //myBody.style.width="250px";
+        mBody.style.width=250+"px";
+        mBody.style.fontSize=90+"px";
+
+    </script>
+</body>
+</html>
